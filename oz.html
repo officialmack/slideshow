@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title></title>
+
+<link rel="stylesheet" type="text/css" href="oz.css">
+
+<br><br>
+<div>
+
+
+<a href="https://en.wikipedia.org/wiki/List_of_Oz_books">
+<img border="0" alt="Wonderful Wizard of Oz" src="greenlogo.jpg" width="500" height="300"></a>
+
+</div>
+
+<h1>Frank L. Baum</h1>
+<h2>
+	Lyman Frank Baum (May 15, 1856 - May 6, 1919), better known by his pen name L. Frank Baum, was an American author chiefly known for his children's books, particularly The Wonderful Wizard of Oz. He wrote thirteen novel sequels, nine other fantasy novels, and a host of other works including 55 novels in total, plus four "lost works", 83 short stories, over 200 poems, an unknown number of scripts, and many miscellaneous writings.He also made numerous attempts to bring his works to the stage and screen.
+</h2>
+</head>
+
+
+<body>
+
+
+<br>
+<br>
+
+<div align="center">
+
+
+
+<div class="wizard">
+	<img src="wizard1.jpg" width="560" height="700">
+</div>
+
+<div class="wizard">
+	<img src="wizard2.jpg" width="560" height="700">
+</div>
+
+<div class="wizard">
+	<img src="wizard3.jpg" width="560" height="700">
+</div>
+
+<div class="wizard">
+	<img src="wizard4.jpg" width="560" height="700">
+</div>
+
+<div class="wizard">
+	<img src="wizard5.jpg" width="560" height="700">
+</div>
+
+<div class="wizard">
+	<img src="wizard6.jpg" width="560" height="700">
+</div>
+
+<div class="wizard">
+	<img src="wizard7.jpg" width="560" height="700">
+</div>
+
+<br>
+
+<a class="back-button" onclick="plusDivs(-1)">&#10094;</a>
+<a class="forward-button" onclick="plusDivs(+1)">&#10095;</a>
+
+</div>
+
+
+<script>
+
+
+var slideIndex = 1;	
+showDivs(slideIndex);
+
+function plusDivs (n) {
+	showDivs (slideIndex += n);
+}
+function showDivs(n) {
+	var i;
+	var x = document.getElementsByClassName("wizard");
+	if (n > x.length) {slideIndex = 1}
+	if (n < 1) {slideIndex = x.length}
+	for (i = 0; i< x.length; i++) {
+		x[i].style.display = "none";	
+	}
+	x[slideIndex-1].style.display = "block";
+}
+
+</script>
+
+<br><br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1HRa4X07jdE" frameborder="0" allowfullscreen></iframe>
+
+<br><br><br><br>
+
+<div>
+<table align="center">
+	<tr class="toprow"> 
+		<th>Book Name</th>	
+		<th>Info</th>
+		
+	</tr>	
+	<tr>
+		<th>The (Wonderful) Wizard of Oz</th>		
+		<th><a href="https://en.wikipedia.org/wiki/The_Wonderful_Wizard_of_Oz">
+<img border="0" alt="Wonderful Wizard of Oz" src="wizard1.jpg" width="100" height="150"></a>
+</th>	
+	</tr>	
+
+	<tr>
+		<th>The Patchwork Girl of Oz</th>		
+		<th><a href="https://en.wikipedia.org/wiki/The_Patchwork_Girl_of_Oz">
+<img border="0" alt="The Patchwork girl of Oz" src="wizard2.jpg" width="100" height="150"></a></th>	
+	</tr>	
+
+<tr>
+		<th>Glinda of Oz</th>	
+		<th><a href="https://en.wikipedia.org/wiki/Glinda_of_Oz">
+<img border="0" alt="Glinda of Oz" src="wizard3.jpg" width="100" height="150"></a></th>	
+	</tr>	
+
+	<tr>
+		<th>Dorothy and The Wizard of Oz</th>	
+		<th><a href="https://en.wikipedia.org/wiki/Dorothy_and_the_Wizard_in_Oz">
+<img border="0" alt="Dorothy and the Wizard of Oz" src="wizard4.jpg" width="100" height="150"></a></th>	
+	</tr>	
+
+	<tr>
+		<th>Tik-Tok of Oz</th>	
+		<th><a href="https://en.wikipedia.org/wiki/Tik-Tok_of_Oz">
+<img border="0" alt="Tik-Tok of Oz" src="wizard5.jpg" width="100" height="150"></a></th>	
+	</tr>	
+
+	<tr>
+		<th>The Tin Woodman of Oz</th>	
+		<th><a href="https://en.wikipedia.org/wiki/The_Tin_Woodman_of_Oz">
+<img border="0" alt=" The Tin Woodman of Oz" src="wizard6.jpg" width="100" height="150"></a></th>	
+	</tr>	
+
+
+<tr>
+		<th>The Tin Woodman of Oz</th>	
+		<th><a href="https://en.wikipedia.org/wiki/The_Tin_Woodman_of_Oz">
+<img border="0" alt=" The Tin Woodman of Oz" src="wizard1.jpg" width="100" height="150"></a></th>	
+	</tr>
+</div>	
+
+
+</body>
+</html>

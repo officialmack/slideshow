@@ -1,0 +1,25 @@
+body {
+    background-color: #17630D;
+    color: white;
+    text-align: center;
+}
+
+/*image { align: center;
+
+}*/
+
+
+
+#wizard { align: center; width: 200px;
+	height: 400px;
+
+}
+
+div {background-color: #17630D;
+}
+
+h1 {font-size: 100px; }
+
+h2 { padding: 20px;
+	text-align: justify;
+ }
